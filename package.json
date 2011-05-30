@@ -1,7 +1,7 @@
 {
-    "name": "GeoStack",
+    "name": "geostack",
     "description": "Sidelab Node Geostack",
-    "main": "./lib/geostack",
+    "main": "./index.js",
     "author": "Damon Oehlman, Sidelab Pty Ltd",
     "version": "0.1.1",
     "repository": {
