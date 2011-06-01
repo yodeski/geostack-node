@@ -1,6 +1,6 @@
 [submodule "node_modules/geojs"]
 	path = node_modules/geojs
-	url = git://github.com/sidelab/geojs.git
+	url = /development/projects/github/sidelab/geojs/
 [submodule "node_modules/quip"]
 	path = node_modules/quip
 	url = https://github.com/caolan/quip.git
