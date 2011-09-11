@@ -1,6 +1,0 @@
-[submodule "node_modules/geojs"]
-	path = node_modules/geojs
-	url = /development/projects/github/sidelab/geojs/
-[submodule "node_modules/quip"]
-	path = node_modules/quip
-	url = https://github.com/caolan/quip.git

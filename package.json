@@ -1,21 +1,30 @@
 {
-    "name": "geostack",
+    "name": "geostack-node",
     "description": "Sidelab Node Geostack",
     "main": "./index.js",
     "author": "Damon Oehlman, Sidelab Pty Ltd",
     "version": "0.1.1",
+    
+    "engines": { "node": "0.4.x || 0.5.x" },
+    
+    "dependencies": {
+        "geojs": "0.1.x",
+        "cluster": "0.7.x",
+        "connect": "1.7.x",
+        "libxmljs": "0.4.x",
+        "quip": "0.x.x"
+    },
+    
+    "devDependencies": {
+        "vows": "0.5.x"
+    },
+        
     "repository": {
         "type": "git",
-        "url": "http://github.com/sidelab/geostack.git"
+        "url": "http://github.com/sidelab/geostack-node.git"
     },
+    
     "bugs": {
-        "web": "https://github.com/sidelab/stack/issues"
-    },
-    "licenses": [{
-        "type": "GPL",
-        "url": "http://github.com/sidelab/geojs/raw/LICENCE#GPL"
-    }, 
-        "type": "Commercial",
-        "url": "http://github.com/sidelab/geojs/raw/LICENCE#CommercialUse"
-    }]
+        "web": "https://github.com/sidelab/geostack-node/issues"
+    }
 }
